@@ -11,28 +11,35 @@
       }
     </style>
     <br>
-    <br>
     <center>
       <form>
           <div>
             <div class="js-container">
-              Cheese
-
-              <label for="Name">Name:</label>
-              <input class="js-name-form-field" type="text" placeholder="Type in new cheese" />
-
+              <div class="btnGroup">
+                <label for="Name">Name:</label>
+                <input class="js-name-form-field" type="text" placeholder="Type in new cheese" />
+                
+              </div>
             </div>
-          </div>
-          <div>
-            <br>
-            <input class="js-name-form-submit" type="Submit" value="Submit" />
-          </div>
-          <div>
-            <br>
+            <div>
+              <br>
+              <input class="js-name-form-submit" type="Submit" value="Submit" />
+            </div>
+            <div>
+              <br>
               <input class="js-name-form-submit" type="Submit" value="clear all" />
               <input class="js-name-form-cheeseblog" type="Submit" value="link to cheese blog" />
               <input class="js-name-form-cheesevideo" type="Submit" value="in-depth cheese video" />
-          </div>
+              <br>
+              <br>
+              <span class="Btn" id="verifiBtn">
+            <button type="submit">Timer</button>
+          </span>
+          <span class="timer">
+            <span id="counter"></span>
+          </span>
+        </div>
+            </div>
       </form>
     </center>
     <script src="script.js"></script>
